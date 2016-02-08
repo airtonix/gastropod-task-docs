@@ -1,6 +1,6 @@
 {
   "name": "gastropod-task-docs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "check-args": {
       "version": "0.0.6",
@@ -3100,6 +3100,18 @@
               "resolved": "https://registry.npmjs.org/clone-stats/-/clone-stats-0.0.1.tgz"
             }
           }
+        }
+      }
+    },
+    "vinyl-named": {
+      "version": "1.1.0",
+      "from": "vinyl-named@latest",
+      "resolved": "https://registry.npmjs.org/vinyl-named/-/vinyl-named-1.1.0.tgz",
+      "dependencies": {
+        "through": {
+          "version": "2.3.8",
+          "from": "through@>=2.3.6 <3.0.0",
+          "resolved": "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
         }
       }
     }

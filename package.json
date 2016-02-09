@@ -11,7 +11,8 @@
     "post-shrinkwrap": "git commit -am 'preversion: recreate shrinkwrap' ",
     "push": "git push --all && git push --tags",
     "preversion": "npm run merge-to-master && npm shrinkwrap",
-    "postversion": "npm run merge-to-develop && npm run push"
+    "postversion": "npm run merge-to-develop && npm run push",
+    "preinstall": "npm install documentation@4.0.0-beta"
   },
   "keywords": [
     "gastropod",
@@ -24,7 +25,6 @@
   "dependencies": {
     "check-args": "0.0.6",
     "debug": "^2.2.0",
-    "documentation": "^4.0.0-beta",
     "gulp-documentation": "^2.1.0",
     "gulp-plumber": "^1.0.1",
     "vinyl-named": "^1.1.0"
